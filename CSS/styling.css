@@ -1,5 +1,7 @@
 body {
-background-color: linear-gradient(to bottom, red, pink);
+  background: linear-gradient(to bottom, red, pink);
+  height: 100vh;
+  margin: 0;
 }
 h1 {
 text-align:center;
