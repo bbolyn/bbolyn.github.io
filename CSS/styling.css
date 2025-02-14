@@ -1,5 +1,5 @@
 body {
-background-color: #D5C6E0;
+background-color: linear-gradient(to bottom, red, pink);
 }
 h1 {
 text-align:center;
