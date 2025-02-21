@@ -1,9 +1,40 @@
 body {
-  background: linear-gradient(to bottom, red, pink);
+  background-color: white;
+  margin: 0;
+  padding: 0;
 }
+
 h1 {
-text-align:center;
-color: blue;
-font-family: "Garamond", serif;
-font-size: 2em;
+  text-align: center;
+  color: blue;
+  font-family: "Garamond", serif;
+  font-size: 2em;
+}
+
+/* Navigation bar styles */
+.nav {
+  list-style: none; /* Remove bullets */
+  display: flex; /* Arrange items in a row */
+  justify-content: center; /* Center the navigation */
+  background-color: #ADD8E6; /* Baby blue navbar */
+  padding: 15px 0; /* Add space above and below */
+  margin: 0; /* Remove default margins */
+}
+
+.nav li {
+  margin: 0 20px; /* Add spacing between links */
+}
+
+.nav a {
+  color: black; /* Black text for contrast */
+  text-decoration: none; /* Remove underlines */
+  font-size: 1.2em; /* Slightly larger text */
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  padding: 10px 15px; /* Add padding for better clickability */
+  transition: color 0.3s ease-in-out;
+}
+
+.nav a:hover {
+  color: darkblue; /* Change color on hover */
 }
