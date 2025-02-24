@@ -38,3 +38,20 @@ h1 {
 .nav a:hover {
   color: darkblue;
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+table {
+  margin: 0 auto; /* Centers the table horizontally */
+  border-collapse: collapse; /* Makes borders cleaner */
+  width: 50%; /* Adjust width as needed */
+}
+
+td {
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
