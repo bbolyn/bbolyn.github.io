@@ -44,11 +44,18 @@ ul {
   padding: 0;
 }
 
-table {
-  margin: 0 auto; /* Centers the table horizontally */
-  border-collapse: collapse; /* Makes borders cleaner */
-  width: 50%; /* Adjust width as needed */
+.skills-table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 50%;
 }
+
+.skills-table td {
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+
 
 td {
   padding: 10px;
