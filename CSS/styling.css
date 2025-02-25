@@ -56,10 +56,10 @@ ul {
   text-align: center;
 }
 
-td {
-  padding: 5px;
-  border: none;
-  text-align: center;
+.skills-table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 50%;
 }
 
 .PostcardImages {
