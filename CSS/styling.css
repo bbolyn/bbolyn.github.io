@@ -56,12 +56,6 @@ ul {
   text-align: center;
 }
 
-td {
-  padding: 5px;
-  border: none;
-  text-align: center;
-}
-
 .PostcardImages {
   display: flex;
   gap: 20px;
