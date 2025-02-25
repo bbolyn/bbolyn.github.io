@@ -1,30 +1,68 @@
-<html>
+<html
 <head>
-  <title>Broderick Bolyn - CV</title>
-  <meta name="description" content="My web portfolio for DIGIT 100">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="CSS/styling.css">
-  </head>
-  <body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Portfolio</title>
+    <link rel="stylesheet" href="../CSS/styling.css">
+</head>
+<body>
     <header>
-      <h1>Broderick Bolyn - Digital Portfolio</h1>
-      <ul class="nav">
-        <li class="nav"><a href="index.html">Home</a></li>
-        <li class="nav"><a href="HTML/resume.html">Resume</a></li>
-        <li class="nav"><a href="HTML/digitalprojects.html">Digital Projects</a></li>
-        <li class="nav"><a href="HTML/coursework.html">Course Work</a></li>
-        <li class="nav"><a href="HTML/aboutme.html">About Me</a></li>
-      </ul>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul class="nav">
+                <li class="nav"><a href="index.html">Home</a></li>
+                <li class="nav"><a href="resume.html">Resume</a></li>
+                <li class="nav"><a href="digitalprojects.html">Digital Projects</a></li>
+                <li class="nav"><a href="coursework.html">Course Work</a></li>
+                <li class="nav"><a href="aboutme.html">About Me</a></li>
+            </ul>
+        </nav>
     </header>
-    <div>
-      <h1>Broderick Bolyn - Digital CV</h1>
-      <p>Welcome to <em>my</em> site!</p>
-    </div>
-    <h2>Resume</h2>
-    <br />
-    <h2>Digital Projects</h2>
-      <h3><a href="https://bulletins.psu.edu/undergraduate/colleges/behrend/digital-media-arts-technology-ba/">DIGIT 100</a></h3>
-      <h3>Cool Projects</h3>
-      <br />
+
+    <section id="introduction">
+        <h2>About Me</h2>
+        <p>Hi, I'm [Your Name], a Mechanical Engineering student at Penn State, graduating in May 2025.
+        I have a strong interest in engineering design, manufacturing processes, and digital projects.
+        This portfolio showcases my academic projects, technical skills, and personal interests.</p>
+    </section>
+
+    <section id="featured-projects">
+        <h2>Featured Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Arduino Inclinometer</h3>
+                <p>A digital sensor project for measuring angles.</p>
+                <a href="digitalprojects.html#inclinometer">Learn More</a>
+            </div>
+            <div class="project-card">
+                <h3>Manual Milling Project</h3>
+                <p>Machined aluminum stock into a precise part.</p>
+                <a href="coursework.html#milling">Learn More</a>
+            </div>
+            <div class="project-card">
+                <h3>Recommendation Report</h3>
+                <p>Compared touchscreen tablets for workplace use.</p>
+                <a href="digitalprojects.html#report">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills & Technologies</h2>
+        <table class="skills-table">
+            <tr>
+                <td>Technical Writing</td>
+                <td>Technical Drawings</td>
+            </tr>
+            <tr>
+                <td>Manufacturing Processes</td>
+                <td>Project Management</td>
+            </tr>
+            <tr>
+                <td>Data Collection & Research</td>
+                <td>Digital Fabrication</td>
+            </tr>
+        </table>
+    </section>
+</body>
 </html>

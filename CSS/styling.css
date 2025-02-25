@@ -1,70 +1,114 @@
 body {
-  background-color: white;
-  margin: 0;
-  padding: 0;
-  text-align: center;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
 }
 
 h1 {
-  text-align: center;
-  color: blue;
-  font-family: "Garamond", serif;
-  font-size: 2em;
+    text-align: center;
+    color: blue;
+    font-family: "Garamond", serif;
+    font-size: 2em;
 }
 
 .nav {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  background-color: #0080FE;
-  padding: 15px 0;
-  margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #0080FE;
+    padding: 15px 0;
+    margin: 0;
 }
 
 .nav li {
-  margin: 0 20px;
+    margin: 0 20px;
 }
 
 .nav a {
-  color: black;
-  text-decoration: none;
-  font-size: 1.2em;
-  font-weight: bold;
-  font-family: Arial, sans-serif;
-  padding: 10px 15px;
-  transition: color 0.3s ease-in-out;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
 }
 
 .nav a:hover {
-  color: darkblue;
+    color: darkblue;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 250px;
+    padding: 15px;
+    border: 2px solid #0080FE;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    color: #0080FE;
+}
+
+.project-card a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
 }
 
 .skills-table {
-  margin: 0 auto;
-  border-collapse: collapse;
-  width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 60%;
 }
 
 .skills-table td {
-  padding: 10px;
-  border: 1px solid black;
-  text-align: center;
-}
-
-
-td {
-  padding: 10px;
-  border: 1px solid black;
-  text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #f4f4f4;
 }
 
 .PostcardImages {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.PostcardImages img {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #0080FE;
+    color: white;
+    text-align: center;
 }
