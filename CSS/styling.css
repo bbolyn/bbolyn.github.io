@@ -44,22 +44,10 @@ ul {
   padding: 0;
 }
 
-.skills-table {
-  margin: 0 auto;
-  border-collapse: collapse;
-  width: 50%;
-}
-
 .skills-table td {
-  padding: 5px;
+  padding: 10px;
   border: none;
   text-align: center;
-}
-
-.skills-table {
-  margin: 0 auto;
-  border-collapse: collapse;
-  width: 50%;
 }
 
 .PostcardImages {
