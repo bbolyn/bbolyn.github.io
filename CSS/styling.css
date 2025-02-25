@@ -75,3 +75,7 @@ p {
   max-width: 800px;
   margin: 0 auto;
 }
+
+.wording-space {
+  height: 10px;
+}
