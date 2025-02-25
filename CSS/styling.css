@@ -70,3 +70,8 @@ ul {
 .section-space {
   height: 20px;
 }
+
+p {
+  max-width: 700px;
+  margin: 0 auto;
+}
