@@ -79,3 +79,47 @@ p {
 .wording-space {
   height: 10px;
 }
+
+.project-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+  align-items: flex-start;
+}
+
+.project-description {
+  flex: 1;
+  min-width: 280px;
+}
+
+.project-image {
+  text-align: center;
+}
+
+.project-image figcaption {
+  font-size: 0.85em;
+  color: #555;
+  margin-top: 8px;
+}
+
+.project-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 18px;
+  background-color: #1f1f1f;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.project-button:hover {
+  background-color: #333;
+}
+
+.bordered-image {
+  border: 2px solid black;
+  border-radius: 5px;
+}
