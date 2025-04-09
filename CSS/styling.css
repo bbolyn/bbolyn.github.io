@@ -80,14 +80,6 @@ p {
   height: 10px;
 }
 
-.project-block {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  margin-top: 20px;
-  align-items: flex-start;
-}
-
 .project-description {
   flex: 1;
   min-width: 280px;
