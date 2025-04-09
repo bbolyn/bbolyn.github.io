@@ -42,15 +42,22 @@
     </section>
 
     <section>
-      <h2>Sample Encoded XML</h2>
-      <pre><code>
-&lt;quote&gt;“I have in my pocket a &lt;object&gt;manuscript&lt;/object&gt;,” said Dr. James &lt;person&gt;Mortimer&lt;/person&gt;.&lt;/quote&gt;
-      </code></pre>
+  <h2>Sample Encoded XML</h2>
 
-      <pre><code>
+  <p>In this project, I used XML tags to identify important parts of the story. Each tag represents a specific type of element. Such as a person, object, or quote. Below are two examples taken from my markup of <em>The Hound of the Baskervilles</em>.</p>
+
+  <p><strong>Example 1:</strong> A quote where a person and an object are both tagged inside the line of dialogue.</p>
+  <pre><code>
+&lt;quote&gt;“I have in my pocket a &lt;object&gt;manuscript&lt;/object&gt;,” said Dr. James &lt;person&gt;Mortimer&lt;/person&gt;.&lt;/quote&gt;
+  </code></pre>
+  <p>Here, the <code>&lt;object&gt;</code> tag is used to mark the manuscript as an important physical item in the story, and <code>&lt;person&gt;</code> tags identify characters by name.</p>
+
+  <p><strong>Example 2:</strong> A short sentence showing narrative text that includes both a character and an object.</p>
+  <pre><code>
 &lt;person&gt;Sherlock Holmes&lt;/person&gt; was seated at the breakfast table. I picked up the &lt;object&gt;stick&lt;/object&gt;.
-      </code></pre>
-    </section>
+  </code></pre>
+  <p>This line shows how XML tagging works outside of quotes, marking Holmes as a named character and the stick as a recurring object important to the mystery.</p>
+</section>
 
     <section>
       <h2>Download Project Files</h2>
