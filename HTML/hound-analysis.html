@@ -1,46 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+  <title>The Hound of the Baskervilles - Text Analysis</title>
   <meta charset="UTF-8">
-  <title>Hound of the Baskervilles Analysis</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS/styling.css">
 </head>
 <body>
   <header>
-    <h1>Hound of the Baskervilles Project</h1>
+    <h1>Text Analysis: <em>The Hound of the Baskervilles</em></h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="digital-projects.html">Digital Projects</a>
+      <ul class="nav">
+        <li class="nav"><a href="../index.html">Home</a></li>
+        <li class="nav"><a href="resume.html">Resume</a></li>
+        <li class="nav"><a href="digitalprojects.html">Digital Projects</a></li>
+        <li class="nav"><a href="coursework.html">Course Work</a></li>
+        <li class="nav"><a href="aboutme.html">About Me</a></li>
+      </ul>
     </nav>
   </header>
 
   <main>
     <section>
-      <h2>Introduction</h2>
-      <p>For this project, I worked with the first two chapters of <em>The Hound of the Baskervilles</em>...</p>
+      <h2>Project Overview</h2>
+      <p>
+        In this project, I explored the first two chapters of <em>The Hound of the Baskervilles</em> using XML markup and Voyant Tools.
+        I encoded characters, objects, and concepts in the text to uncover hidden patterns, and used Voyant to analyze trends across a whole mystery corpus.
+      </p>
     </section>
 
     <section>
-      <h2>Voyant Word Cloud</h2>
-      <img src="cirrus-screenshot.png" alt="Voyant Word Cloud">
-      <p><a href="https://voyant-tools.org/?corpus=YOUR_LINK_HERE" target="_blank">Open in Voyant</a></p>
+      <h2>Voyant Visualizations</h2>
+
+      <h3>Voyant Word Cloud</h3>
+      <p>This word cloud shows the most common terms across my mystery corpus. Larger words appeared more frequently in the text, which helped me identify important characters and objects early in the story.</p>
+      <iframe style='width: 500px; height: 231px;' src='https://voyant-tools.org/tool/Cirrus/?corpus=8560abe6fdd7cbb3b891818e22b9d964'></iframe>
+      <p><a href="https://voyant-tools.org/tool/Cirrus/?corpus=8560abe6fdd7cbb3b891818e22b9d964" target="_blank">Open this view in Voyant Tools</a></p>
+
+      <h3>Word Frequency Over Time (Trends)</h3>
+      <img src="../images/voyant_trends.png" alt="Trends graph from Voyant Tools" width="600">
     </section>
 
     <section>
-      <h2>Trends in Word Use</h2>
-      <img src="trends-screenshot.png" alt="Voyant Trends">
-    </section>
-
-    <section>
-      <h2>Sample XML Encoding</h2>
+      <h2>Sample Encoded XML</h2>
       <pre><code>
 &lt;quote&gt;“I have in my pocket a &lt;object&gt;manuscript&lt;/object&gt;,” said Dr. James &lt;person&gt;Mortimer&lt;/person&gt;.&lt;/quote&gt;
+      </code></pre>
+
+      <pre><code>
+&lt;person&gt;Sherlock Holmes&lt;/person&gt; was seated at the breakfast table. I picked up the &lt;object&gt;stick&lt;/object&gt;.
       </code></pre>
     </section>
 
     <section>
-      <h2>Download the Encoded XML</h2>
-      <a href="The_Hound_xml_markup.xml" download>Download the XML File</a>
+      <h2>Download My Marked-Up Text</h2>
+      <p><a href="../files/The_Hound_xml_markup.xml" download>Download the encoded XML file</a></p>
+    </section>
+
+    <section>
+      <h2>Full Analysis</h2>
+      <p>
+        Want to read my full write-up of the project, including what I learned from both markup and Voyant?
+        <a href="#full-analysis-text">Jump to it here.</a>
+      </p>
+    </section>
+
+    <section id="full-analysis-text">
+      <h3>Full Text</h3>
+      <!-- Paste your final analysis text here. You can use <p> for paragraphs and <em> for italics. -->
+      <p>
+        Working with <em>The Hound of the Baskervilles</em> in XML format and analyzing it in Voyant has given me...
+      </p>
+      <!-- Keep adding paragraphs until your ~1000-word essay is done -->
     </section>
   </main>
 
