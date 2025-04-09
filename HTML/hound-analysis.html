@@ -65,13 +65,42 @@
     </section>
 
     <section id="full-analysis-text">
-      <h3>Full Text</h3>
-      <!-- Paste your final analysis text here. You can use <p> for paragraphs and <em> for italics. -->
-      <p>
-        Working with <em>The Hound of the Baskervilles</em> in XML format and analyzing it in Voyant has given me...
-      </p>
-      <!-- Keep adding paragraphs until your ~1000-word essay is done -->
-    </section>
+  <h2>Full Analysis</h2>
+
+  <p>For this project, I worked with the first two chapters of <em>The Hound of the Baskervilles</em> and explored them using both XML markup and a digital tool called Voyant. At first, I wasn’t totally sure what to expect, but by the end, I learned a lot about how stories can be broken down and analyzed in new ways. This wasn’t just a normal reading assignment—it was like looking at the story under a microscope and from a bird’s-eye view at the same time.</p>
+
+  <p>The first part of the project was encoding the text in XML. This means I had to go through the story line by line and tag things like characters, objects, and dialogue using markup. I used tags like <code>&lt;person&gt;</code> for names like Holmes or Watson, <code>&lt;object&gt;</code> for items like the walking stick, and <code>&lt;quote&gt;</code> for all the dialogue. I also added <code>&lt;concept&gt;</code> tags around important ideas like the legend of the hound. It took some time to decide what should be tagged and where, but once I got into it, I started noticing patterns. For example, Holmes is mentioned constantly in Chapter 1, and a lot of the story moves forward through what characters say rather than what they do. Here’s a sample of the markup I created:</p>
+
+  <pre><code>
+  &lt;quote&gt;“I have in my pocket a &lt;object&gt;manuscript&lt;/object&gt;,” said Dr. James &lt;person&gt;Mortimer&lt;/person&gt;.&lt;/quote&gt;
+  </code></pre>
+
+  <p>Tagging the story like this helped me understand how often certain characters show up and how the story’s mystery is introduced slowly. By marking up the object “stick,” I realized how much it’s talked about early on, even though it seems small. Holmes and Watson use it to make a bunch of deductions, and that kicks off the entire investigation.</p>
+
+  <p>After finishing the markup, I used Voyant Tools to analyze the story and compare it to other mystery novels in my corpus. My full corpus included five books: <em>The Moonstone</em>, <em>The Insidious Dr. Fu-Manchu</em>, <em>The Hound of the Baskervilles</em>, <em>Sherlock Holmes</em> short stories, and <em>The Mysterious Affair at Styles</em>. I uploaded these texts into Voyant and explored different tools to see patterns across all of them.</p>
+
+  <p>One of the most helpful tools was the word cloud (Cirrus). The largest words in the word cloud were “Holmes,” “Watson,” “Mortimer,” “Baskerville,” and “stick.” That makes a lot of sense based on how the story starts. The stick is a major object in the first chapter, and Mortimer’s arrival with the mystery sets the whole thing into motion. Seeing it so large in the word cloud helped confirm how important it really is.</p>
+
+  <p>I also used Voyant’s Trends tool to track how often words like “Holmes,” “Watson,” and “hound” appear. “Holmes” and “Watson” are used steadily throughout the first chapters, but “hound” doesn’t really show up until Mortimer reads the old manuscript. The spike in that word shows how the legend changes the focus of the story—from an everyday case to something much darker and more supernatural.</p>
+
+  <p>The Collocates tool gave me more detail. When I searched “Mortimer,” it was surrounded by words like “doctor,” “problem,” and “manuscript.” That showed that Mortimer’s character is always tied to the mystery he brings. Meanwhile, “Holmes” was always close to “said,” “looked,” “deduction,” or “observed”—which fits his personality as a detective who’s always watching and figuring things out.</p>
+
+  <p>One thing I liked about using both XML and Voyant is how they helped me notice different things. XML made me slow down and pay close attention to the structure. I had to really think about what I was reading and how each part worked in the bigger story. Voyant helped me zoom out and spot patterns that I wouldn’t notice just by reading normally. For example, in my XML, I tagged the following moment where Holmes corrects Watson:</p>
+
+  <pre><code>
+  &lt;quote&gt;“Has anything escaped me?” I asked... “I am afraid, my dear &lt;person&gt;Watson&lt;/person&gt;, that most of your conclusions were erroneous...”&lt;/quote&gt;
+  </code></pre>
+
+  <p>This shows how Holmes is both a teacher and a little bit of a show-off. Voyant confirmed this relationship by showing how often Holmes and Watson appear near each other and how their dialogue shapes the mystery.</p>
+
+  <p>I also tagged the hound legend as a concept in XML, and Voyant backed that up with how often the word “hound” appears in the middle of Chapter 2. The combination of both methods helped me prove that the legend isn’t just a story element—it changes the tone and direction of the plot.</p>
+
+  <p>Comparing <em>The Hound of the Baskervilles</em> to other mystery texts in my corpus also helped. In stories like <em>The Mysterious Affair at Styles</em>, “murder” shows up early and often. But in <em>The Hound</em>, the build-up is slower, and the danger comes through fear and suspense instead of violence. This changes how readers feel about the mystery and gives Holmes a different type of problem to solve—one that blends science and superstition.</p>
+
+  <p>In the end, this project helped me understand both the story and the tools. XML tagging made me see how the author structured everything, while Voyant gave me a bird’s-eye view of how the story fits in with other mysteries. I used to think digital tools were mostly for coding or data analysis, but now I see how they can help break down literature, too. If I had more time, I’d love to tag more chapters and dig deeper into how other characters are introduced later in the book.</p>
+
+  <p>This project helped me connect close reading with distant reading. By switching between the two, I could see both the small details and the big trends. And honestly, it made the story more fun. It felt like solving a mystery about a mystery—which is kind of perfect for a Sherlock Holmes novel.</p>
+</section>
   </main>
 
   <footer>
