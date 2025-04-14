@@ -477,11 +477,11 @@ var elizaKeywords = [
   ]]
 ]],
 ["what", 0, [
-  [["*", [
-      "What do *you* think? Oh wait, you weren’t.",
-      "If I had a nickel for every dumb question…",
-      "That question made me lose brain cells.",
-      "You’re really asking *that*?"
+ ["*", [
+     "What do *you* think? Oh wait, you weren’t.",
+     "If I had a nickel for every dumb question…",
+     "That question made me lose brain cells.",
+     "You’re really asking *that*?"
  ]]
 ]],
 ["who", 0, [
