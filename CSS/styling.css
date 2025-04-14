@@ -3,6 +3,8 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
 }
 
 h1 {
@@ -11,6 +13,12 @@ h1 {
   font-family: "Garamond", serif;
   font-size: 2em;
   margin-top: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .nav {
@@ -68,12 +76,13 @@ ul {
 }
 
 .section-space {
-  height: 20px;
+  height: 30px;
 }
 
 p {
   max-width: 800px;
   margin: 0 auto;
+  line-height: 1.6;
 }
 
 .wording-space {
@@ -141,7 +150,6 @@ input[type="reset"]:hover {
   background-color: #0d47a1;
 }
 
-
 .resume-download-button {
   display: inline-block;
   background-color: #1976d2;
@@ -157,4 +165,32 @@ input[type="reset"]:hover {
 
 .resume-download-button:hover {
   background-color: #135ba1;
+}
+
+/* New: Portfolio layout */
+.portfolio-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.portfolio-links div {
+  flex: 1 1 220px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.portfolio-links h3 a {
+  font-size: 1.2em;
+  color: #1976d2;
+  text-decoration: none;
+}
+
+.portfolio-links h3 a:hover {
+  text-decoration: underline;
 }

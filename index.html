@@ -5,10 +5,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="CSS/styling.css">
-  </head>
-  <body>
-    <header>
-      <h1>Broderick Bolyn - Digital Portfolio</h1>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Broderick Bolyn - Digital Portfolio</h1>
+    <nav>
       <ul class="nav">
         <li class="nav"><a href="index.html">Home</a></li>
         <li class="nav"><a href="HTML/resume.html">Resume</a></li>
@@ -16,16 +18,18 @@
         <li class="nav"><a href="HTML/coursework.html">Course Work</a></li>
         <li class="nav"><a href="HTML/aboutme.html">About Me</a></li>
       </ul>
-    </header>
+    </nav>
+  </header>
 
   <section id="introduction">
     <h2>Hello, I'm Broderick Bolyn</h2>
     <p>I am a 4th-year Mechanical Engineering student at Penn State Berks. This website serves as a portfolio of my digital projects, coursework, and professional experience. Here, you can explore my work, see my resume, and learn more about my journey.</p>
-    <div class="section-space"></div>
-    <img src="images/Headshot.jpeg" alt="Headshot of Broderick Bolyn" width="200px">
+    <figure style="margin: 20px auto; text-align: center;">
+      <img src="images/Headshot.jpeg" alt="Headshot of Broderick Bolyn" width="200px">
+    </figure>
   </section>
 
-    <div class="section-space"></div>
+  <div class="section-space"></div>
 
   <section id="portfolio-overview">
     <h2>Explore My Work</h2>
@@ -49,26 +53,24 @@
     </div>
   </section>
 
+  <div class="section-space"></div>
+
+  <section id="featured-project">
+    <h2>Featured Project: Text Analysis</h2>
+    <p>In this digital humanities project, I explored the first two chapters of <em>The Hound of the Baskervilles</em> using XML markup and Voyant Tools. I tagged elements like characters and objects in the text, then used Voyant to analyze patterns across a mystery novel corpus.</p>
+    <p>This project helped me see how digital tools can reveal hidden structures in storytelling and provided a unique way to connect close reading with data visualization.</p>
+
     <div class="section-space"></div>
 
-    <section id="featured-project">
-  <h2>Featured Project: Text Analysis</h2>
-  <p>In this digital humanities project, I explored the first two chapters of <em>The Hound of the Baskervilles</em> using XML markup and Voyant Tools. I tagged elements like characters and objects in the text, then used Voyant to analyze patterns across a mystery novel corpus.</p>
-  <p>This project helped me see how digital tools can reveal hidden structures in storytelling and provided a unique way to connect close reading with data visualization.</p>
+    <a href="HTML/TextAnalysis.html" target="_blank">
+      <img src="images/voyant_cirrus.png" alt="Voyant Cirrus Word Cloud" width="500" class="bordered-image">
+    </a>
 
-  <div class="section-space"></div>
+    <div class="section-space"></div>
 
-  <a href="HTML/TextAnalysis.html" target="_blank">
-    <img src="images/voyant_cirrus.png" alt="Voyant Cirrus Word Cloud" width="500" style="border: 2px solid black;">
-  </a>
-
-  <div class="section-space"></div>
-
-  <a href="HTML/TextAnalysis.html" target="_blank" class="project-button">View Full Analysis</a>
-</section>
-
+    <a href="HTML/TextAnalysis.html" target="_blank" class="project-button">View Full Analysis</a>
+  </section>
 
   <div class="bottom-space"></div>
-
 </body>
 </html>
