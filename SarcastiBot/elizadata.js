@@ -3,19 +3,20 @@
 // [cf: Communications of the ACM, Vol. 9, #1 (January 1966): p 36-45.]
 
 var elizaInitials = [
-"How do you do.  Please tell me your problem.",
-// additions (not original)
-"Please tell me what's been bothering you.",
-"Is something troubling you ?"
+  "Oh great, another conversation. Lucky me.",
+  "Let’s get this over with. What now?",
+  "You again? Fine. Say something dramatic.",
+  "Sure, tell me what’s wrong this time.",
+  "This better be good. I'm already exhausted."
 ];
 
 var elizaFinals = [
-"Goodbye.  It was nice talking to you.",
-// additions (not original)
-"Goodbye.  This was really a nice talk.",
-"Goodbye.  I'm looking forward to our next session.",
-"This was a good session, wasn't it -- but time is over now.   Goodbye.",
-"Maybe we could discuss this moreover in our next session ?   Goodbye."
+  "Finally. I thought this would never end.",
+  "Good talk. Truly life-changing... Not.",
+  "I'll try to forget this as fast as possible.",
+  "Bye. Try not to overthink what just happened.",
+  "Okay, we're done. You survived... barely.",
+  "Let’s never do this again. Kidding. Maybe."
 ];
 
 var elizaQuits = [
