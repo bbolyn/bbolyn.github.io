@@ -54,9 +54,8 @@
 </head>
 
 <body onload="window.setTimeout('elizaReset()',100)">
-	<header>
-  <img src="../images/sarcastibot_icon.png" alt="SarcastiBot Icon" style="height: 40px; margin-bottom: 5px;">
-  <h1>SarcastiBot</h1>
+  <header>
+    <h1>SarcastiBot</h1>
     <nav>
       <ul class="nav">
         <li class="nav"><a href="../index.html">Home</a></li>
@@ -70,7 +69,9 @@
 
   <main>
     <section>
-      <h2>Talk to SarcastiBot</h2>
+			<h2 style="display: flex; align-items: center; gap: 10px;">
+  			<img src="../images/sarcastibot_icon.png" alt="Bot Icon" style="height: 30px;">
+  				Talk to SarcastiBot</h2>
       <p>This is a sarcastic version of the classic ELIZA chatbot. Don't expect helpful responses, SarcastiBot is here to mock your thoughts, not explore them.</p>
 				<div class="wording-space"></div>
       <form name="e_form" onsubmit="elizaStep(); return false">
