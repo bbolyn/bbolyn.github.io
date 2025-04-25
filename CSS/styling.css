@@ -194,9 +194,3 @@ input[type="reset"]:hover {
 .portfolio-links h3 a:hover {
   text-decoration: underline;
 }
-
-.twine-game {
-  width: 100%;
-  height: 800px;
-  border: none;
-}
