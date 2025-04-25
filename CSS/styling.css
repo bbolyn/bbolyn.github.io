@@ -194,3 +194,14 @@ input[type="reset"]:hover {
 .portfolio-links h3 a:hover {
   text-decoration: underline;
 }
+
+.twine {
+  width: 100%;
+  max-width: 1200px;  
+  height: 800px;
+  margin: 30px auto;
+  display: block;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
